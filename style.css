@@ -106,8 +106,10 @@ body {
     font-size: 2.2rem;
     color: #2c1e13;
     margin-bottom: 3rem;
+    position: relative;
 }
 
+<<<<<<< HEAD
 }
 
 .product-image {
@@ -119,19 +121,38 @@ body {
 
 .product-card:hover .product-image {
     transform: scale(1.05); /* Efeito sutil de zoom ao passar o mouse no card */
+=======
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+    border-top: 4px solid #d4a373;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+>>>>>>> parent of 335ac6e (alteracao)
 }
 
 .product-card h3 {
     color: #2c1e13;
     font-size: 1.4rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
 }
 
 .product-card p {
     font-size: 0.95rem;
     color: #666;
     margin-bottom: 1.5rem;
-    flex-grow: 1; /* Garante alinhamento caso os textos variem de tamanho */
 }
 
 .product-price {
