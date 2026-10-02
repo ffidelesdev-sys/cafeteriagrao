@@ -110,6 +110,7 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 .product-image {
@@ -122,6 +123,8 @@ body {
 .product-card:hover .product-image {
     transform: scale(1.05); /* Efeito sutil de zoom ao passar o mouse no card */
 =======
+=======
+>>>>>>> parent of 335ac6e (alteracao)
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -140,6 +143,9 @@ body {
 
 .product-card:hover {
     transform: translateY(-5px);
+<<<<<<< HEAD
+>>>>>>> parent of 335ac6e (alteracao)
+=======
 >>>>>>> parent of 335ac6e (alteracao)
 }
 
