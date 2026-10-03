@@ -121,21 +121,19 @@ body {
 
 .product-card {
     background-color: #fff;
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.04);
     border-top: 4px solid #d4a373;
     text-align: center;
     transition: transform 0.3s ease;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .product-card:hover {
     transform: translateY(-5px);
 }
 
+<<<<<<< HEAD
 /* Estilos das Imagens dos Produtos */
 .product-image-container {
     width: 100%;
@@ -182,6 +180,8 @@ body {
 >>>>>>> parent of 335ac6e (alteracao)
 }
 
+=======
+>>>>>>> parent of 335ac6e (alteracao)
 .product-card h3 {
     color: #2c1e13;
     font-size: 1.4rem;
